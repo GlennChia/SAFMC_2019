@@ -12,7 +12,7 @@ Documentation of software problems
 - Useful Link: https://www.elecrow.com/download/TF-MINI-LIDAR-USER-MANUAL.pdf
   Page 24-26 Talks about connecting the lidar to pixHawk 
   Note: It would be useful to test with their GUI with an FTDI. Personally, the arduino code did not work (I tried it on 2 arduino unos)
-  (link to FTDI)[https://www.lazada.sg/products/33v-55v-ft232rl-ftdi-usb-to-ttl-serial-adapter-module-for-arduino-mini-port-i286641088-s459934864.html?spm=a2o42.searchlist.list.5.5fbc1dbbA28R3Y&search=1] feel free to search for another FTDI if needed 
+  (https://www.lazada.sg/products/33v-55v-ft232rl-ftdi-usb-to-ttl-serial-adapter-module-for-arduino-mini-port-i286641088-s459934864.html?spm=a2o42.searchlist.list.5.5fbc1dbbA28R3Y&search=1)[link to FTDI] feel free to search for another FTDI if needed 
   
 # 2. ST VL53L0X / VL53L1X Lidar
 ## 2.1 Connecting with pixHawk
