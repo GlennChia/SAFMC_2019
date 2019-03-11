@@ -11,13 +11,12 @@ Documentation of software problems
   Note: Don't trust the RNGFND_TYPE. 
 - Useful Link: https://www.elecrow.com/download/TF-MINI-LIDAR-USER-MANUAL.pdf
   Page 24-26 Talks about connecting the lidar to pixHawk 
-  Note: It would be useful to test with their GUI with an FTDI. Personally, the arduino code did not work (I tried it on 2 arduino unos)
-  (https://www.lazada.sg/products/33v-55v-ft232rl-ftdi-usb-to-ttl-serial-adapter-module-for-arduino-mini-port-i286641088-s459934864.html?spm=a2o42.searchlist.list.5.5fbc1dbbA28R3Y&search=1)[link to FTDI] feel free to search for another FTDI if needed 
+  Note: It would be useful to test with their GUI with an FTDI. Personally, the arduino code did not work (I tried it on 2 arduino unos). Hence, investing in an FTDI would be useful. (https://www.lazada.sg/products/33v-55v-ft232rl-ftdi-usb-to-ttl-serial-adapter-module-for-arduino-mini-port-i286641088-s459934864.html?spm=a2o42.searchlist.list.5.5fbc1dbbA28R3Y&search=1)[link to FTDI] feel free to search for another FTDI if needed 
   
 # 2. ST VL53L0X / VL53L1X Lidar
 ## 2.1 Connecting with pixHawk
 **Preparing the pixHawk**
-1. At the point of writing this, I tried the firmware version of 3.7. It can be found (here)[http://firmware.ardupilot.org/Copter/2019-03/2019-03-11-05:03/Pixhawk1/]. I flashed this firmware of PixHawk1, yes 1 on both the pixHawk1 and the pixHawk2 
+1. At the point of writing this, I tried the firmware version of 3.7. It can be found (http://firmware.ardupilot.org/Copter/2019-03/2019-03-11-05:03/Pixhawk1/)[here]. I flashed this firmware of PixHawk1, yes 1 on both the pixHawk1 and the pixHawk2 
   - Note: I downloaded the .apj file and used mission planner to upgrade the custom firmware. `Initial set-up` $\rarr$ `Install Firmware` $\rarr$ `Load Custom Firmware`
 2. Connect according to the link provided on the Ardupilot documentation 
 3. Setting the parameters 
